@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+// import Country from './components/Country/Country';
+import Nations from './components/Nations/Nations';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Lets know about all countries over the world</h1>
+      <Nations>
+
+      </Nations>
+     
     </div>
   );
 }
